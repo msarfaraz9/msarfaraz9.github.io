@@ -1,8 +1,15 @@
 
-*{box-sizing:border-box}body{margin:0;font-family:Arial,sans-serif;background:#08111f;color:#eef7ff}
-.wrap{width:min(1100px,92%);margin:auto}header{position:sticky;top:0;background:#08111fcc}.wrap nav a{color:#fff;margin-left:14px;text-decoration:none}
-header .wrap{display:flex;justify-content:space-between;align-items:center;padding:16px 0}.hero{display:grid;grid-template-columns:1.2fr .8fr;gap:40px;padding:80px 0}
-.tag{background:#0ea5ff33;padding:8px 12px;border-radius:20px}.btn{display:inline-block;margin-top:20px;background:#0ea5ff;color:#fff;padding:12px 18px;text-decoration:none;border-radius:8px}
-.photo img{width:100%;border-radius:20px}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px}.card{background:#132238;padding:20px;border-radius:16px}
-.reveal{opacity:0;transform:translateY(24px)}footer{background:#040913;padding:50px 0;margin-top:50px}
-@media(max-width:800px){.hero{grid-template-columns:1fr}}
+:root{--bg:#07111f;--panel:rgba(255,255,255,.07);--accent:#0ea5ff;--text:#eef8ff}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(circle at top,#14518a,#07111f 65%);font-family:Inter,sans-serif;color:var(--text)}
+.container{width:min(1160px,92%);margin:auto}.nav{position:sticky;top:0;background:rgba(7,17,31,.78);backdrop-filter:blur(14px)}
+.nav .container{display:flex;justify-content:space-between;align-items:center;padding:18px 0}.logo{font:800 1.5rem Poppins}
+nav a{color:#fff;text-decoration:none;margin-left:18px}
+.hero{display:grid;grid-template-columns:1.2fr .8fr;gap:50px;align-items:center;padding:90px 0}
+.tag{display:inline-block;background:#12466f;padding:8px 14px;border-radius:999px}
+h1,h2{font-family:Poppins}.buttons{margin:28px 0}.btn{display:inline-block;padding:12px 18px;border-radius:10px;text-decoration:none;background:var(--accent);color:#fff;margin-right:10px}.ghost{background:transparent;border:1px solid #76d4ff}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.stats div,.card,.why li{background:var(--panel);padding:18px;border-radius:18px;border:1px solid rgba(255,255,255,.08)}
+.photo img,.placeholder{width:100%;min-height:420px;border-radius:20px}.placeholder{display:flex;align-items:center;justify-content:center;border:2px dashed #76d4ff}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px}.card:hover{transform:translateY(-6px)}
+.why{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px;padding:0;list-style:none}
+section{padding:46px 0}.reveal{opacity:0;transform:translateY(25px)}footer{padding:60px 0;background:#040913;margin-top:40px}
+@media(max-width:850px){.hero{grid-template-columns:1fr}.stats{grid-template-columns:repeat(2,1fr)}}
