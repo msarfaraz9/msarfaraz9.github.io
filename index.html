@@ -1,82 +1,77 @@
-<!DOCTYPE html>
-<html lang="en"><head>
+<!DOCTYPE html><html lang="en"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Mohammed Sarfaraz Ahmed | Azure Data Engineer</title>
-<meta name="description" content="Azure Data Engineer Portfolio">
+<meta name="description" content="Premium Azure Data Engineer Portfolio">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/css/style.css">
-</head>
-<body>
-<header class="nav">
-<div class="container">
+</head><body>
+<div class="bg-glow"></div>
+<header class="nav"><div class="container">
 <div class="logo">MSA</div>
-<nav>
-<a href="#hero">Home</a><a href="#about">About</a><a href="#skills">Skills</a>
-<a href="#experience">Experience</a><a href="#projects">Projects</a><a href="#contact">Contact</a>
-</nav>
-<button id="themeBtn">🌙</button>
-</div>
-</header>
+<nav><a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#impact">Impact</a><a href="#contact">Contact</a></nav>
+<button id="themeBtn">☀</button>
+</div></header>
 
-<section id="hero" class="hero container">
-<div>
-<span class="pill">AZURE • DATABRICKS • SYNAPSE • POWER BI</span>
-<h1>Building Enterprise Data Platforms on Microsoft Azure</h1>
-<p>Azure Data Engineer with 4+ years of experience delivering cloud-native ETL/ELT pipelines, analytics platforms and business intelligence solutions.</p>
+<section class="hero container">
+<div class="content">
+<span class="pill">AZURE • DATABRICKS • POWER BI • PYSPARK</span>
+<h1>Transforming Enterprise Data into Business Intelligence.</h1>
+<p>Azure Data Engineer delivering scalable cloud-native ETL pipelines, analytics platforms and reporting solutions for global enterprises.</p>
 <div class="actions">
-<a class="btn" href="#">Download Resume</a>
-<a class="btn outline" href="https://github.com/msarfaraz9">GitHub</a>
+<a class="btn primary" href="#">Download Resume</a>
+<a class="btn secondary" href="https://github.com/msarfaraz9">GitHub</a>
 </div>
-<div class="stats">
-<div><strong>4+</strong><span>Years</span></div>
-<div><strong>30%</strong><span>Faster Queries</span></div>
-<div><strong>100+</strong><span>Users</span></div>
-<div><strong>3</strong><span>Enterprise Clients</span></div>
+<div class="metrics">
+<div><strong>4+</strong><small>Years</small></div>
+<div><strong>30%</strong><small>Query Gain</small></div>
+<div><strong>100+</strong><small>Users</small></div>
+<div><strong>3</strong><small>Clients</small></div>
 </div>
 </div>
-<div class="photo">
-<img src="assets/images/profile.png" alt="Profile" onerror="this.replaceWith(document.createTextNode('Add profile.png to assets/images'));"/>
+<div class="imageCard">
+<img src="assets/images/profile.png" alt="Profile" onerror="this.style.display='none';document.getElementById('ph').style.display='grid';">
+<div id="ph" class="ph" style="display:none">Add <b>profile.png</b><br>to assets/images</div>
 </div>
 </section>
 
-<section id="about" class="container section">
+<section id="about" class="container reveal">
 <h2>About Me</h2>
-<p>I specialize in Azure Data Factory, Azure Databricks, Azure Synapse Analytics, ADLS Gen2, PySpark, SQL and Power BI, helping organizations build reliable and scalable data platforms.</p>
+<p>I design modern Azure data platforms using Azure Data Factory, Azure Databricks, Synapse Analytics, ADLS Gen2, SQL and Power BI. My focus is on building reliable, maintainable and high-performance data solutions.</p>
 </section>
 
-<section id="skills" class="container section">
+<section id="skills" class="container reveal">
 <h2>Technology Stack</h2>
 <div class="grid">
-<div class="card">Azure Data Factory</div><div class="card">Databricks</div><div class="card">Synapse</div><div class="card">ADLS Gen2</div>
+<div class="card">Azure Data Factory</div><div class="card">Azure Databricks</div><div class="card">Azure Synapse</div><div class="card">ADLS Gen2</div>
 <div class="card">PySpark</div><div class="card">SQL</div><div class="card">Power BI</div><div class="card">Azure DevOps</div>
 </div>
 </section>
 
-<section id="experience" class="container section">
-<h2>Experience</h2>
-<div class="timeline">
-<div class="item"><h3>Tata Consultancy Services</h3><p>Azure Data Engineering, ADF pipelines, SQL optimization, Power BI, Jira administration.</p></div>
-<div class="item"><h3>Leadership</h3><p>Led Jira & Confluence administration and workflow automation.</p></div>
-</div>
-</section>
-
-<section id="projects" class="container section">
+<section id="projects" class="container reveal">
 <h2>Featured Projects</h2>
 <div class="grid">
-<div class="card"><h3>Kaleyra Platform</h3><p>Azure ingestion and reporting pipelines.</p></div>
-<div class="card"><h3>ADF Migration</h3><p>Johnson & Johnson cloud migration PoC.</p></div>
-<div class="card"><h3>Business Intelligence</h3><p>Power BI dashboards and analytics.</p></div>
+<div class="card"><h3>Kaleyra</h3><p>Enterprise messaging data platform with Azure services.</p></div>
+<div class="card"><h3>ADF Migration</h3><p>Cloud migration proof of concept for Johnson & Johnson.</p></div>
+<div class="card"><h3>Jira Administration</h3><p>Workflow automation and governance for engineering teams.</p></div>
 </div>
 </section>
 
-<footer id="contact">
-<div class="container">
-<h2>Let's Connect</h2>
-<p>Email: ssarfaraz9@gmail.com</p>
-<p>LinkedIn: linkedin.com/in/sarfaraz-m</p>
-<p>GitHub: github.com/msarfaraz9</p>
+<section id="impact" class="container reveal">
+<h2>Business Impact</h2>
+<div class="timeline">
+<div>✓ Optimized SQL workloads by 30%</div>
+<div>✓ Supported 100+ business users</div>
+<div>✓ Led Jira administration initiatives</div>
+<div>✓ Built Azure ETL/ELT pipelines</div>
 </div>
-</footer>
+</section>
+
+<footer id="contact"><div class="container">
+<h2>Let's Build Something Great</h2>
+<p>📧 ssarfaraz9@gmail.com</p>
+<p>💼 linkedin.com/in/sarfaraz-m</p>
+<p>💻 github.com/msarfaraz9</p>
+</div></footer>
 <script src="assets/js/app.js"></script>
 </body></html>
