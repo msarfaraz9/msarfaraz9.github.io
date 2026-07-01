@@ -1,1 +1,1 @@
-Copy your HD photo here as profile.png
+Place profile.png here
