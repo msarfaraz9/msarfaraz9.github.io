@@ -1,95 +1,75 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Mohammed Sarfaraz Ahmed | Azure Data Engineer</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-<header class="nav">
-  <div class="container">
-    <div class="logo">MSA</div>
-    <nav>
-      <a href="#about">About</a>
-      <a href="#skills">Skills</a>
-      <a href="#experience">Experience</a>
-      <a href="#contact">Contact</a>
-    </nav>
-  </div>
-</header>
+<header class="nav"><div class="wrap">
+<div class="logo">MSA</div>
+<nav><a href="#about">About</a><a href="#skills">Skills</a><a href="#experience">Experience</a><a href="#projects">Projects</a><a href="#contact">Contact</a></nav>
+</div></header>
 
 <section class="hero">
-  <div class="container hero-grid">
-    <div>
-      <span class="tag">AVAILABLE FOR DATA ENGINEERING OPPORTUNITIES</span>
-      <h1>Building Modern Data Platforms on Microsoft Azure</h1>
-      <p class="lead">
-        I'm <strong>Mohammed Sarfaraz Ahmed</strong>, an Azure Data Engineer with 4+ years of experience building
-        scalable ETL/ELT pipelines, cloud data platforms, and Power BI reporting solutions.
-      </p>
+<div class="wrap grid">
+<div>
+<span class="pill">AZURE DATA ENGINEER • POWER BI • PYSPARK</span>
+<h1>Building Cloud Data Platforms that Turn Enterprise Data into Business Decisions.</h1>
+<p>I design scalable ETL/ELT pipelines, modern Azure data platforms and business intelligence solutions for enterprise clients.</p>
+<div class="cta">
+<a class="btn" href="#">Download Resume</a>
+<a class="outline" href="https://github.com/msarfaraz9">GitHub</a>
+</div>
+<div class="metrics">
+<div><strong>4+</strong><span>Years</span></div>
+<div><strong>30%</strong><span>Performance Gain</span></div>
+<div><strong>100+</strong><span>Users Supported</span></div>
+</div>
+</div>
+<div class="photoCard">
+<img src="assets/images/profile.png" alt="Profile" onerror="this.style.display='none';this.parentNode.innerHTML='<div class=placeholder>Copy your HD photo here as <b>profile.png</b></div>';">
+</div>
+</div></section>
 
-      <div class="buttons">
-        <a class="btn primary" href="#">Download Resume</a>
-        <a class="btn ghost" href="https://www.linkedin.com/in/sarfaraz-m/" target="_blank">LinkedIn</a>
-      </div>
-
-      <div class="stats">
-        <div><h2>4+</h2><span>Years</span></div>
-        <div><h2>30%</h2><span>Query Optimization</span></div>
-        <div><h2>100+</h2><span>Business Users</span></div>
-      </div>
-    </div>
-
-    <div class="photo">
-      <div class="placeholder">
-        <p>Replace this box with<br><strong>assets/images/profile.png</strong></p>
-      </div>
-    </div>
-  </div>
+<section id="about" class="wrap">
+<h2>About</h2>
+<p>Results-driven Azure Data Engineer with expertise in Azure Data Factory, Databricks, Synapse Analytics, ADLS Gen2, Delta Lake, PySpark, SQL and Power BI. Passionate about building reliable data products that create measurable business value.</p>
 </section>
 
-<section id="about" class="container">
-<h2>About Me</h2>
-<p>Results-driven Azure Data Engineer experienced in Azure Data Factory, Azure Databricks, Azure Synapse Analytics,
-ADLS Gen2, Delta Lake, PySpark, SQL and Power BI. I enjoy transforming complex enterprise data into reliable,
-scalable analytics solutions.</p>
-</section>
-
-<section id="skills" class="container">
+<section id="skills" class="wrap">
 <h2>Core Expertise</h2>
 <div class="cards">
-<div class="card">Azure Data Factory</div>
-<div class="card">Azure Databricks</div>
-<div class="card">Azure Synapse</div>
-<div class="card">PySpark</div>
-<div class="card">Power BI</div>
-<div class="card">SQL</div>
-<div class="card">ADLS Gen2</div>
-<div class="card">GitHub • Azure DevOps</div>
+<div>Azure Data Factory</div><div>Azure Databricks</div><div>Azure Synapse</div><div>ADLS Gen2</div>
+<div>PySpark</div><div>SQL</div><div>Power BI</div><div>Azure DevOps</div>
 </div>
 </section>
 
-<section id="experience" class="container">
-<h2>Professional Experience</h2>
+<section id="experience" class="wrap">
+<h2>Experience Timeline</h2>
 <div class="timeline">
-<h3>Tata Consultancy Services (2021–2026)</h3>
-<p>Built enterprise Azure Data Engineering solutions, Azure Data Factory pipelines, SQL optimization, Power BI reporting and Jira administration for global clients including TCL and Johnson & Johnson.</p>
+<article><h3>2021 · Tata Consultancy Services</h3><p>Joined TCS as a Data Engineer.</p></article>
+<article><h3>2024 · Kaleyra (TCL)</h3><p>Built Azure Data Factory pipelines, SQL validation, reporting and platform support.</p></article>
+<article><h3>2025 · Team Lead</h3><p>Led Jira & Confluence administration, automation and governance.</p></article>
 </div>
 </section>
 
-<footer id="contact">
-<div class="container">
-<h2>Let's Connect</h2>
-<p>Email: <a href="mailto:ssarfaraz9@gmail.com">ssarfaraz9@gmail.com</a></p>
-<p>GitHub: <a href="https://github.com/msarfaraz9">github.com/msarfaraz9</a></p>
-<p>LinkedIn: <a href="https://linkedin.com/in/sarfaraz-m">linkedin.com/in/sarfaraz-m</a></p>
+<section id="projects" class="wrap">
+<h2>Featured Projects</h2>
+<div class="projects">
+<div class="project"><h3>Kaleyra Data Platform</h3><p>Enterprise ingestion pipelines using ADF, ADLS and SQL.</p></div>
+<div class="project"><h3>ADF Migration PoC</h3><p>Johnson & Johnson migration from on-premises to Azure.</p></div>
+<div class="project"><h3>Jira Administration</h3><p>Workflow automation and governance for engineering teams.</p></div>
 </div>
-</footer>
+</section>
 
+<footer id="contact"><div class="wrap">
+<h2>Let's Connect</h2>
+<p>Email: ssarfaraz9@gmail.com</p>
+<p>LinkedIn: linkedin.com/in/sarfaraz-m</p>
+<p>GitHub: github.com/msarfaraz9</p>
+</div></footer>
 <script src="assets/js/app.js"></script>
-</body>
-</html>
+</body></html>
