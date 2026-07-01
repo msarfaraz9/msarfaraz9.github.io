@@ -1,4 +1,4 @@
-const t=document.getElementById('theme');
-t.onclick=()=>document.body.classList.toggle('light');
-const obs=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.animate([{opacity:0,transform:'translateY(30px)'},{opacity:1,transform:'translateY(0)'}],{duration:600,fill:'forwards'});obs.unobserve(e.target);}}));
-document.querySelectorAll('.section,.hero').forEach(x=>{x.style.opacity=0;obs.observe(x);});
+window.addEventListener('load',()=>{loader.style.display='none'});
+document.getElementById('theme').onclick=()=>document.body.classList.toggle('light');
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.style.transition='all .7s';e.target.style.opacity=1;e.target.style.transform='translateY(0)';}}));
+document.querySelectorAll('.reveal').forEach(x=>io.observe(x));
