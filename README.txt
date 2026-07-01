@@ -1,1 +1,1 @@
-Copy your HD photo here and rename it profile.png
+Place your profile photo here as profile.png

@@ -1,6 +1,5 @@
-<!doctype html>
-<html lang="en">
-<head>
+<!DOCTYPE html>
+<html lang="en"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Mohammed Sarfaraz Ahmed | Azure Data Engineer</title>
 <meta name="description" content="Azure Data Engineer Portfolio">
@@ -9,80 +8,75 @@
 <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-<div id="particles"></div>
-<header class="nav"><div class="wrap">
+<header class="nav">
+<div class="container">
 <div class="logo">MSA</div>
 <nav>
-<a href="#about">About</a>
-<a href="#impact">Impact</a>
-<a href="#stack">Stack</a>
-<a href="#projects">Projects</a>
-<a href="#timeline">Timeline</a>
-<a href="#contact">Contact</a>
+<a href="#hero">Home</a><a href="#about">About</a><a href="#skills">Skills</a>
+<a href="#experience">Experience</a><a href="#projects">Projects</a><a href="#contact">Contact</a>
 </nav>
-<button id="theme">☀</button>
-</div></header>
+<button id="themeBtn">🌙</button>
+</div>
+</header>
 
-<section class="hero wrap">
-<div class="hero-text">
-<span class="tag">AZURE • DATA ENGINEERING • ANALYTICS</span>
-<h1>Building Modern Azure Data Platforms for Enterprise Analytics</h1>
-<p>Azure Data Engineer with expertise in Azure Data Factory, Databricks, Synapse Analytics, ADLS Gen2, PySpark, SQL and Power BI.</p>
-<div class="cta">
+<section id="hero" class="hero container">
+<div>
+<span class="pill">AZURE • DATABRICKS • SYNAPSE • POWER BI</span>
+<h1>Building Enterprise Data Platforms on Microsoft Azure</h1>
+<p>Azure Data Engineer with 4+ years of experience delivering cloud-native ETL/ELT pipelines, analytics platforms and business intelligence solutions.</p>
+<div class="actions">
 <a class="btn" href="#">Download Resume</a>
-<a class="ghost" href="https://github.com/msarfaraz9" target="_blank">GitHub</a>
+<a class="btn outline" href="https://github.com/msarfaraz9">GitHub</a>
+</div>
+<div class="stats">
+<div><strong>4+</strong><span>Years</span></div>
+<div><strong>30%</strong><span>Faster Queries</span></div>
+<div><strong>100+</strong><span>Users</span></div>
+<div><strong>3</strong><span>Enterprise Clients</span></div>
 </div>
 </div>
-<div class="hero-photo">
-<img src="assets/images/profile.png" alt="Profile" onerror="this.style.display='none';document.getElementById('placeholder').style.display='flex';">
-<div id="placeholder" class="placeholder" style="display:none">Place profile.png here</div>
-</div>
-</section>
-
-<section id="impact" class="wrap reveal">
-<h2>Business Impact</h2>
-<div class="cards">
-<div class="card"><h3>4+</h3><p>Years Experience</p></div>
-<div class="card"><h3>30%</h3><p>Performance Improvement</p></div>
-<div class="card"><h3>100+</h3><p>Business Users</p></div>
-<div class="card"><h3>Enterprise</h3><p>Azure Solutions</p></div>
+<div class="photo">
+<img src="assets/images/profile.png" alt="Profile" onerror="this.replaceWith(document.createTextNode('Add profile.png to assets/images'));"/>
 </div>
 </section>
 
-<section id="stack" class="wrap reveal">
-<h2>Azure Data Flow</h2>
-<div class="flow">
-<div>SQL</div><span>→</span><div>ADF</div><span>→</span><div>ADLS</div><span>→</span><div>Databricks</div><span>→</span><div>Synapse</div><span>→</span><div>Power BI</div>
+<section id="about" class="container section">
+<h2>About Me</h2>
+<p>I specialize in Azure Data Factory, Azure Databricks, Azure Synapse Analytics, ADLS Gen2, PySpark, SQL and Power BI, helping organizations build reliable and scalable data platforms.</p>
+</section>
+
+<section id="skills" class="container section">
+<h2>Technology Stack</h2>
+<div class="grid">
+<div class="card">Azure Data Factory</div><div class="card">Databricks</div><div class="card">Synapse</div><div class="card">ADLS Gen2</div>
+<div class="card">PySpark</div><div class="card">SQL</div><div class="card">Power BI</div><div class="card">Azure DevOps</div>
 </div>
 </section>
 
-<section id="projects" class="wrap reveal">
+<section id="experience" class="container section">
+<h2>Experience</h2>
+<div class="timeline">
+<div class="item"><h3>Tata Consultancy Services</h3><p>Azure Data Engineering, ADF pipelines, SQL optimization, Power BI, Jira administration.</p></div>
+<div class="item"><h3>Leadership</h3><p>Led Jira & Confluence administration and workflow automation.</p></div>
+</div>
+</section>
+
+<section id="projects" class="container section">
 <h2>Featured Projects</h2>
-<div class="cards">
-<div class="card"><h3>Kaleyra Platform</h3><p>Enterprise Azure ingestion and reporting pipelines.</p></div>
-<div class="card"><h3>ADF Migration</h3><p>Migration PoC for Johnson & Johnson.</p></div>
-<div class="card"><h3>Jira Administration</h3><p>Automation, governance and workflow optimization.</p></div>
+<div class="grid">
+<div class="card"><h3>Kaleyra Platform</h3><p>Azure ingestion and reporting pipelines.</p></div>
+<div class="card"><h3>ADF Migration</h3><p>Johnson & Johnson cloud migration PoC.</p></div>
+<div class="card"><h3>Business Intelligence</h3><p>Power BI dashboards and analytics.</p></div>
 </div>
-</section>
-
-<section id="timeline" class="wrap reveal">
-<h2>Career Timeline</h2>
-<ul class="timeline">
-<li><strong>2021</strong> Joined TCS</li>
-<li><strong>2024</strong> Kaleyra Platform</li>
-<li><strong>2025</strong> Jira Team Lead</li>
-<li><strong>2026</strong> Azure Data Engineering Portfolio</li>
-</ul>
 </section>
 
 <footer id="contact">
-<div class="wrap">
+<div class="container">
 <h2>Let's Connect</h2>
-<p>📧 ssarfaraz9@gmail.com</p>
-<p>💼 linkedin.com/in/sarfaraz-m</p>
-<p>💻 github.com/msarfaraz9</p>
+<p>Email: ssarfaraz9@gmail.com</p>
+<p>LinkedIn: linkedin.com/in/sarfaraz-m</p>
+<p>GitHub: github.com/msarfaraz9</p>
 </div>
 </footer>
 <script src="assets/js/app.js"></script>
-</body>
-</html>
+</body></html>
