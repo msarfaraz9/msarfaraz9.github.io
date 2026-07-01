@@ -1,75 +1,68 @@
-<!doctype html>
-<html lang="en">
-<head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<!DOCTYPE html><html lang="en"><head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Mohammed Sarfaraz Ahmed | Azure Data Engineer</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/css/style.css">
-</head>
-<body>
-<header class="nav"><div class="wrap">
-<div class="logo">MSA</div>
-<nav><a href="#about">About</a><a href="#skills">Skills</a><a href="#experience">Experience</a><a href="#projects">Projects</a><a href="#contact">Contact</a></nav>
+</head><body>
+<div class="bg"></div>
+<header><div class="wrap">
+<div class="brand">MSA</div>
+<nav><a href="#about">About</a><a href="#skills">Skills</a><a href="#pipeline">Azure</a><a href="#projects">Projects</a><a href="#contact">Contact</a></nav>
+<button id="theme">☀︎</button>
 </div></header>
 
-<section class="hero">
-<div class="wrap grid">
-<div>
-<span class="pill">AZURE DATA ENGINEER • POWER BI • PYSPARK</span>
-<h1>Building Cloud Data Platforms that Turn Enterprise Data into Business Decisions.</h1>
-<p>I design scalable ETL/ELT pipelines, modern Azure data platforms and business intelligence solutions for enterprise clients.</p>
-<div class="cta">
+<section class="hero wrap">
+<div class="left">
+<span class="chip">AZURE • PYSPARK • POWER BI • SQL</span>
+<h1>Building Cloud Data Platforms that Power Enterprise Decisions.</h1>
+<p>I build scalable Azure data solutions using Azure Data Factory, Databricks, Synapse Analytics, ADLS Gen2 and Power BI.</p>
+<div class="actions">
 <a class="btn" href="#">Download Resume</a>
-<a class="outline" href="https://github.com/msarfaraz9">GitHub</a>
+<a class="btn ghost" href="https://github.com/msarfaraz9">GitHub</a>
 </div>
-<div class="metrics">
-<div><strong>4+</strong><span>Years</span></div>
-<div><strong>30%</strong><span>Performance Gain</span></div>
-<div><strong>100+</strong><span>Users Supported</span></div>
+<div class="highlights">
+<div><b>4+</b><span>Years</span></div>
+<div><b>30%</b><span>Faster Queries</span></div>
+<div><b>100+</b><span>Users</span></div>
 </div>
 </div>
-<div class="photoCard">
-<img src="assets/images/profile.png" alt="Profile" onerror="this.style.display='none';this.parentNode.innerHTML='<div class=placeholder>Copy your HD photo here as <b>profile.png</b></div>';">
-</div>
-</div></section>
-
-<section id="about" class="wrap">
-<h2>About</h2>
-<p>Results-driven Azure Data Engineer with expertise in Azure Data Factory, Databricks, Synapse Analytics, ADLS Gen2, Delta Lake, PySpark, SQL and Power BI. Passionate about building reliable data products that create measurable business value.</p>
-</section>
-
-<section id="skills" class="wrap">
-<h2>Core Expertise</h2>
-<div class="cards">
-<div>Azure Data Factory</div><div>Azure Databricks</div><div>Azure Synapse</div><div>ADLS Gen2</div>
-<div>PySpark</div><div>SQL</div><div>Power BI</div><div>Azure DevOps</div>
+<div class="right">
+<img src="assets/images/profile.png" alt="Profile" onerror="this.style.display='none';document.getElementById('ph').style.display='flex';">
+<div id="ph" class="ph" style="display:none">Place profile.png here</div>
 </div>
 </section>
 
-<section id="experience" class="wrap">
-<h2>Experience Timeline</h2>
-<div class="timeline">
-<article><h3>2021 · Tata Consultancy Services</h3><p>Joined TCS as a Data Engineer.</p></article>
-<article><h3>2024 · Kaleyra (TCL)</h3><p>Built Azure Data Factory pipelines, SQL validation, reporting and platform support.</p></article>
-<article><h3>2025 · Team Lead</h3><p>Led Jira & Confluence administration, automation and governance.</p></article>
+<section id="about" class="wrap section"><h2>About Me</h2><p>Azure Data Engineer with 4+ years of experience delivering enterprise-grade ETL/ELT pipelines, data platforms and reporting solutions for global organizations.</p></section>
+
+<section id="pipeline" class="wrap section">
+<h2>Azure Data Pipeline</h2>
+<div class="pipe">
+<div>SQL</div><span>➜</span><div>ADF</div><span>➜</span><div>ADLS</div><span>➜</span><div>Databricks</div><span>➜</span><div>Synapse</div><span>➜</span><div>Power BI</div>
 </div>
 </section>
 
-<section id="projects" class="wrap">
+<section id="skills" class="wrap section">
+<h2>Technical Stack</h2>
+<div class="grid">
+<div class="card">Azure Data Factory</div><div class="card">Azure Databricks</div><div class="card">Azure Synapse</div><div class="card">PySpark</div><div class="card">SQL</div><div class="card">Power BI</div><div class="card">Azure DevOps</div><div class="card">GitHub</div>
+</div>
+</section>
+
+<section id="projects" class="wrap section">
 <h2>Featured Projects</h2>
-<div class="projects">
-<div class="project"><h3>Kaleyra Data Platform</h3><p>Enterprise ingestion pipelines using ADF, ADLS and SQL.</p></div>
-<div class="project"><h3>ADF Migration PoC</h3><p>Johnson & Johnson migration from on-premises to Azure.</p></div>
-<div class="project"><h3>Jira Administration</h3><p>Workflow automation and governance for engineering teams.</p></div>
+<div class="grid">
+<div class="card"><h3>Kaleyra Platform</h3><p>ADF ingestion, SQL validation, enterprise reporting.</p></div>
+<div class="card"><h3>ADF Migration</h3><p>On-prem to Azure migration for Johnson & Johnson.</p></div>
+<div class="card"><h3>Jira Administration</h3><p>Automation, governance and workflow engineering.</p></div>
 </div>
 </section>
 
 <footer id="contact"><div class="wrap">
 <h2>Let's Connect</h2>
-<p>Email: ssarfaraz9@gmail.com</p>
-<p>LinkedIn: linkedin.com/in/sarfaraz-m</p>
-<p>GitHub: github.com/msarfaraz9</p>
+<p>📧 ssarfaraz9@gmail.com</p>
+<p>💼 linkedin.com/in/sarfaraz-m</p>
+<p>💻 github.com/msarfaraz9</p>
 </div></footer>
 <script src="assets/js/app.js"></script>
 </body></html>
